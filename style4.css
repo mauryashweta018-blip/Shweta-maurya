@@ -1,0 +1,33 @@
+html,body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+#parent{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display: flex; /*ek line me hi boxes aa jayengi [layout bnane ke liye use hota hai]*/
+   /* align-items: flex-start;  Scrren ke ekdam top me rahengi chheeje */
+   /*align-items: flex-end; screen ke bottom me rahengi cheejein*/
+  /* align-items: center;
+   justify-content: center; /* Align center hone ki vajah se content center me ho jayega*/
+   justify-content: space-between; /*box ke beech me space aa jayega {Sapce around dene pe esake around space aa jayega} [Space evenly har box ke pass equal space]*/
+}
+
+#box1{
+    height:200px;
+    width:200px;
+    background-color:deepskyblue
+}
+#box2{
+    height:200px;
+    width:200px;
+    background-color: crimson;
+}
+#box3{
+    height: 200px;
+    width:200px;
+    background-color: yellow;
+}
