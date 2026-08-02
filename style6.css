@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+#box1{
+    height:200px;
+    width:200px;
+    background-color: mediumseagreen;
+    position:absolute;  /* absolute karne par box upar ho gya aur box2 usake neeche aa gya*/
+    left:30%;       /* left se 30% move hoga to box2 dikhne lagega*/
+    z-index:15;  /*z-index kaun sa box upar hai kaun sa neeche hai us pe kaam krta hai hum dono box ko z-index denge jiska z-index bada hoga vo box upar aa jayega*/
+    transform: translateX(20%); /*us us box ke size ka 10% x axess se(left) side hoga*/
+    transform:translateY(30%);    /* top se neeche bottom ki taraf aayega 30% (z-Access) {agar -50% denge to us box ka 50% hi dikhga}*/
+
+}
+#box2{
+    height:200px;
+    width:200px;
+    background-color:lightpink;
+    position: absolute;
+    left:35%;
+    top:10%;
+    z-index:10;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.823); /* x-access, y-access, blur , color*/
+
+}
+#box3{
+    height:200px;
+    width:200px;
+    background-color:lightcoral;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);       /*(position-transform tak ka code likhne se box screen ke ekdam center me aa jayegi)*/
+    /*clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);; /* browser pe search karenge clip path to hume clip mil jayegi*/
+    /*flex-direction: column; {jo hume boxes display flex dene par ro wise dikhati thi abb vo column wise dikhengi*/
+    /*flex-wrap: wrap; sare boxes apni sahi size me rahenge*/
+    /*overflow:auto; noWrap karne pe ,hum use scroll kr sakte hai*/
+    /*Object-fit:cover; img ke liye ye use krne pr img compress nhi hoti hai*/
+}
+button {
+    margin-top:30px;
+    background-color:rgb(44, 141, 180);
+    color:white;
+    width:120px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight:700;
+    cursor: pointer;/*Cursor ki jagah pointer aa jayega */
+    border: 3px solid skyblue;
+}
+button:hover{
+    background-color:transparent;
+    color: rgb(87, 180, 217);
+
+}
