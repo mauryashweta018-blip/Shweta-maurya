@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#profile{
+    width: 350px;
+    height: 350px;
+    background-color:rgb(247, 230, 232);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.927);
+    margin:20px 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#profile img{
+    height: 150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;   
+}
+#profile h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+#profile p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.69);
+}
+button{
+    width:100px;
+    height:40px;
+    border-radius:20px;
+    background-color: rgb(16, 156, 211);
+    border:3px solid rgb(27, 176, 235);
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(56, 180, 229);
+    font-weight: 700;   
+}
