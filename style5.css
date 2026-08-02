@@ -134,4 +134,39 @@ button{
 #macbook button{
     width:100px;
 }
+#upgrad{
+    display: flex;
+    width:100%;
+    height: auto;
+    
+}
+#upgrad #first{
+    background-color:#F5F5F7;
+    width:400px;
+    height: 500px;
+   
+
+}
+#upgrad #first img{
+    width:400px;
+    height: auto;
+    align-items: center;
+    object-fit: cover;
+
+}
+#upgrad #second{
+    background:linear-gradient(#a4dcf4,white) ;
+    width:400px;
+    height: 500px;
+
+}
+#upgrad #second img{
+    background: none;
+    width:400px;
+    height: auto;
+    align-items: center;
+    object-fit: cover;
+
+}
+
 
