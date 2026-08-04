@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#Nav{
+    width:100%;
+    height: auto;
+    display: flex;
+}
+#Nav #center p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Nav #right{
+    display: flex;
+    justify-content: space-between;
+}
