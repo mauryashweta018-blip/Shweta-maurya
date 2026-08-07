@@ -12,6 +12,17 @@ body,html{
     background:linear-gradient(to bottom,hotpink,white);
 
 }
+#pictures{
+    padding:20px 30px;
+    height: 300px;
+    width:350px;
+    position: relative;
+    transition:all ease 1s; /*hover krne pe jo ekdam se change hota hai vo ab 1s me hoga and all krne se vo sari properties pr apply ho jati hai*/
+    /* ab bottom nhi dikhega lekin img pe click krne pr dikhega - me*/
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     padding:20px 30px;
     height: 300px;
@@ -20,10 +31,30 @@ body,html{
     transition:all ease 1s; /*hover krne pe jo ekdam se change hota hai vo ab 1s me hoga and all krne se vo sari properties pr apply ho jati hai*/
     /* ab bottom nhi dikhega lekin img pe click krne pr dikhega - me*/
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
-.card img{
-    height: 100%;
-    width:100%;
+.card #img1 img {
+    height: auto;
+    width:300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card #img2 img {
+    height: auto;
+    width:300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card #img3 img {
+    height: auto;
+    width:300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card #img4 img {
+   height: auto;
+    width:300px;
     object-fit: cover;
     border-radius: 15px;
 }
