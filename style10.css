@@ -7,16 +7,89 @@ html,body{
     width:100%;
 }
 #Nav{
-    width:100%;
+   padding:20px 30px;
+    width:auto;
     height: auto;
     display: flex;
-}
-#Nav #center p{
-    display: flex;
     justify-content: space-between;
+}
+#left{
+    margin-left:50px;
+}
+#center{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
     align-items: center;
 }
-#Nav #right{
+#center p{
+    padding-right:50px;
+}
+.shop{
+    font-weight: 500;
+    text-decoration: underline;
+}
+#right{
     display: flex;
-    justify-content: space-between;
+    gap:25px;
+    padding-right:30px;
+}
+#main{
+    padding-left:50px;
+}
+#main p{
+     padding-top:20px;
+     padding-left:30px;
+}
+#heading h1{
+    padding-left:70px;
+    font-size: 80px;
+    font-weight: 500;
+    width:10ch;
+    line-height: 60px;
+}
+#para p{
+    padding-left:70px;
+    padding-top:20px;
+    width:35ch;
+}
+#colors{
+    padding-top:20px;
+    display: flex;
+    gap:15px;
+    padding-left:70px;
+}
+#colors h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+#green{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color:rgb(34, 92, 34);
+}
+#white{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color:rgb(228, 219, 220);
+}
+#pink{
+     height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(247, 181, 192);
+}
+#Details{
+    padding-top:20px;
+    padding-left:70px;
+}
+#Details p{
+    width:50ch;
+}
+#img{
+    height: 300px;
+    width:400px;
+    object-fit: cover;
 }
