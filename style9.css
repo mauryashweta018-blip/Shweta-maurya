@@ -13,31 +13,53 @@ body,html{
 
 }
 .card{
+    padding:20px 30px;
     height: 300px;
     width:350px;
-    background-color: whitesmoke;
     position: relative;
     transition:all ease 1s; /*hover krne pe jo ekdam se change hota hai vo ab 1s me hoga and all krne se vo sari properties pr apply ho jati hai*/
-    overflow:hidden; /* ab bottom nhi dikhega lekin img pe click krne pr dikhega - me*/
+    /* ab bottom nhi dikhega lekin img pe click krne pr dikhega - me*/
+    overflow: hidden;
 }
 .card img{
     height: 100%;
     width:100%;
     object-fit: cover;
-   
+    border-radius: 15px;
 }
 .bottom{
+   
     width:100%;
-    height:40px;
+    height:50%;
     background: linear-gradient(transparent,hotpink);
     position:absolute;  /*Parent ko relative bnane se child control me rhta hai*/
-    bottom:-40%;
     transition:all ease 1s;
+    bottom:-50%;
+    left:0%;
+    transform: scale(0.5s);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.bottom:hover{
-    bottom:0%;
-    transform: scale(1);
+
+.card:hover .bottom{
+   bottom:0%;
+   cursor: pointer;
 }
-/*.card:hover img{
-    rotate:45deg;
+.bottom h3{
+    color: rgb(58, 3, 31);
+    font-weight: 600;
+   padding-left: 35px;
+   padding-top:20px;
+}
+.bottom h4{
+   padding:30px 35px;
+}
+
+.bottom h4 i{
+    padding:6px 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+   /* rotate:45deg;
 }*/
