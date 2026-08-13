@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    background-color: black;
+}
+/*#parent{
+    width:100%;
+    height: 100%;
+    display: grid;
+    
+    grid-template-columns: 20%  20% 20% 10% ;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+/*.box{
+    height: 120px;
+    width:120px;
+    background-color:pink;
+    border-top:2px solid black;
+    
+}*/
+/*.box{
+    width:300px;
+    height:300px;
+    background-color: mediumturquoise;
+    border:2px solid black;
+}
+/*.box:nth-child(2){   
+    height: 200px;
+    width:200px;         /*2nd no. ke box ka color change
+    background-color: rgb(150, 233, 150);
+}
+.box:nth-last-child(2n){   
+    height: 200px;
+    width:200px;    /*last se 2nd no. ke box ka color change    agar 2n likhenge to har second pe vo cheeje apply hongi
+    background-color: rgb(138, 240, 211);
+}
+.box:nth-last-child(1){
+    height: 200px;
+    width:200px;
+    border-bottom: 2px solid black;
+}*/
+h1{         /*Adding img on the text*/
+    font-size: 200px;
+    color:transparent;
+    text-align: center;
+    background-image:url(https://images.unsplash.com/photo-1785990137771-1cb6d4a63637?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-clip: text;
+}
+h2{                         /* Adding gif on the text*/
+    font-size:150px;
+    color: transparent;
+    text-align: center;
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHA0M255OTNudWpvczZobHM2MTBpNW9sZGhwcWM4cGJqZDVwYTVteiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6gbeVN2ZPbG2COKA/giphy.gif);
+    background-size: cover;
+    background-clip: text;
+}
+h3{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    -webkit-text-stroke: 2px red;    /* text ko border dene ke liye use hota hai*/
+}
+
