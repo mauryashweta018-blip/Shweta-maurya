@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 0.5fr 0.5fr ;
+    grid-template-areas:"header header header"
+                        "section section section"
+                        "left up right"
+                        "left down right"
+   ;
+}
+
+header{
+    background-color: rgb(71, 143, 146);
+    grid-area: header;
+}
+section{
+    background-color: rgb(169, 97, 73);
+    grid-area: section;
+}
+#left{
+    background-color: rgb(58, 90, 148);
+    grid-area:left;
+}
+
+#up{
+    background-color: saddlebrown;
+    grid-area:up;  
+    
+}
+#down{
+    background-color: rgb(98, 123, 46);
+    grid-area: down;
+}
+
+#right{
+    background-color: rgb(124, 43, 85);
+    grid-area:right;
+}
+
