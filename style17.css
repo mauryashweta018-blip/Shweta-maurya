@@ -25,7 +25,8 @@ h1 {
 
 #parent {
     width: 200px;
-    height: 200px;
+    height: 40%;
+    background-color: rgb(55, 105, 106);
     font-size: 40px;
 }
 
